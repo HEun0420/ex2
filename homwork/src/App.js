@@ -44,7 +44,7 @@ const onRemove = id => {
           }
 
 const onHighLight = (id) => {
-     const updatedToDos = toDos.map(toDo =>
+    const updatedToDos = toDos.map(toDo =>
       toDo.id === id ? { ...toDo, highlight: !toDo.highlight } : toDo
       );
       setToDos(updatedToDos);
